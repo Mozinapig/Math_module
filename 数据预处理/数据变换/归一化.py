@@ -1,7 +1,10 @@
+##通常我们要将数据全部换为极大型指标
+
 from sklearn import preprocessing
 import pandas as pd
 import numpy as np
 
+#minmax,mean,z_score三种方法
 
 def MaxMinNormalizetion(x):
     shapeX = x.shape
